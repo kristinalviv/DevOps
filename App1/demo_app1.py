@@ -4,7 +4,7 @@ from dash import html
 
 if __name__ == "__main__":
 	dash = dash.Dash()
-	dash.layout = html.Div(childrenpwd=[
+	dash.layout = html.Div([
 		html.H1(children='Hello'),
 		html.Div(children=f'''I'm working on 4050 port''')
 		])
